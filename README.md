@@ -14,7 +14,8 @@
     - Preceded by `p`
     - Ex:
     ```
-        public DriveStraight(Drive pDrive, double pDistanceToDrive) {
+        public DriveStraight(Drive pDrive, double pDistanceToDrive)
+        {
             mDrive = pDrive;
             mDistanceToDrive = pDistanceToDrive;
         }
@@ -24,7 +25,8 @@
 - Enumerations are in all caps, `LIKE_THIS`
 - Ex: States of a manipulator:
 ```
-public enum EManipulatorState {
+public enum EManipulatorState
+{
     RESET, GRABBING, PLACING;
 }
 ```
@@ -34,10 +36,10 @@ Here's how to get your code into the main robot repository:
 
 ### If you've just joined the team:
 1. Make an account on [GitHub](https://github.com/).
-2. Ask one of the robot programming leads to add your account to the iliterobotics robot programming team.
+2. Ask one of the robot programming leads to add your account to the Team Neutrino organization on GitHub.
 
 ### If it's the first time you've contributed to this repo:
-1. Clone the repo to your computer - `git clone https://github.com/iliterobotics/FRC-Robot-2019`
+1. Clone the repo to your computer
 
 ### Any time you want to make a change:
 We use a feature branch workflow. You can read more about that [here](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow).
@@ -65,7 +67,7 @@ To update your PR, just push to the branch you made before.
   * Don't dismiss someone's review when you make changes - instead, ask them to re-review it.
 7. Merge your changes into master
   * If there are no conflicts, push the "Squash and merge" button, write a good commit message, and merge the changes.
-  * If there are conflicts, fix them locally on your branch, push them, wait for Jenkins to pass, and then squash and merge.
+  * If there are conflicts, fix them locally on your branch, push them, and then squash and merge.
 8. ???
 9. Profit
 
