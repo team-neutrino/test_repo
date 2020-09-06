@@ -148,6 +148,7 @@ public class Robot extends TimedRobot {
       m_right_follower = new EncoderFollower(right_trajectory);
 
       m_left_follower.configureEncoder(m_left_encoder.get(), k_ticks_per_rev, k_wheel_diameter);
+	   
       // You must tune the PID values on the following line!
       m_left_follower.configurePIDVA(1.0, 0.0, 0.0, 1 / k_max_velocity, 0);
 
@@ -229,3 +230,5 @@ public class Robot extends TimedRobot {
   public void testPeriodic() {
   }
 }
+
+//This is a random practice to practice commiting thing okay
