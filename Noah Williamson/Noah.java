@@ -30,6 +30,7 @@ AI: Main
   {
     If (Self has Slow Status) Then
     {
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
       Choose Self
       Cast DeSpell on Target
     } Else If (TempVar:MoveSet == 1) Then {
